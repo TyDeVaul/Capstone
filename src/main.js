@@ -40,6 +40,10 @@ var routes = [
     component: require('./views/recover.vue')
   },
   {
+    path: '/about',
+    component: require('./views/about.vue')
+  },
+  {
     path: '/error',
     component: require('./views/error.vue')
   },

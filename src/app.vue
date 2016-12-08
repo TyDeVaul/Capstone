@@ -36,9 +36,9 @@
           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </div>
         <ul class="list-inline">
-          <li><a href="#">Home</a></li>
+          <li><router-link to="/">Home</router-link></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
+          <li><router-link to="about">About</router-link></li>
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy Policy</a></li>
         </ul>
