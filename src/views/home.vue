@@ -7,7 +7,9 @@
           <div class="col-sm-8">
             <div class="intro">
               <h2>Get Actionable Trade Information</h2>
-              <p>Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. Aliqua sed justo ligula.</p><a class="btn btn-primary" role="button" href="#">get started</a></div>
+              <p>Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. Aliqua sed justo ligula.</p>
+              <router-link to="register" class="btn btn-primary" role="button">get started</router-link>
+            </div>
           </div>
           <div class="col-sm-4 hidden-xs">
             <div class="iphone-mockup"><img src="/imgs/iphone.svg" class="device">
