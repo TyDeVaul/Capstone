@@ -13,6 +13,7 @@
 <style lang="less" rel="stylesheet/less">
   .error-template {
     text-align: center;
+    margin: 125px;
     .fa {
       color: #ff0000;
       font-size: 100px;

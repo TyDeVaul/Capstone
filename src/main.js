@@ -51,15 +51,7 @@ var routes = [
 
 //init router
 global.router = new VueRouter({
-  mode: 'history',
-  routes: routes,
-  scrollBehavior: function(to, from, savedPosition) {
-    if(savedPosition) {
-      return savedPosition
-    }else{
-      return { x: 0, y: 0 }
-    }
-  }
+  routes: routes
 });
 
 //before each route change
@@ -75,7 +67,6 @@ router.beforeEach(function(to, from, next) {
     //continue
     next();
   }
-
 });
 
 //after each route change

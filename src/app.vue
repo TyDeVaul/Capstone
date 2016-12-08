@@ -4,19 +4,26 @@
     <div>
       <nav class="navbar navbar-default navigation-clean-button">
         <div class="container-fluid">
-          <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Scrape-N-Trade </a>
-            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <div class="navbar-header">
+            <router-link to="/" class="navbar-brand navbar-link">Scrape-N-Trade</router-link>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
           <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav"></ul>
-            <p class="navbar-text navbar-right actions"> <a class="btn btn-default action-button" role="button" href="#">Login </a></p>
+            <p class="navbar-text navbar-right actions">
+              <router-link to="signin" class="btn btn-default action-button" role="button">Login</router-link>
+            </p>
           </div>
         </div>
       </nav>
     </div>
 
     <!-- view -->
-    <div class="container">
+    <div>
       <router-view></router-view>
     </div>
 
