@@ -44,6 +44,10 @@ var routes = [
     component: require('./views/about.vue')
   },
   {
+    path: '/contact',
+    component: require('./views/contact.vue')
+  },
+  {
     path: '/error',
     component: require('./views/error.vue')
   },
